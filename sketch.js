@@ -47,7 +47,7 @@ function draw() {
     //escreva um código para mover o balão para cima, escrevendo na base de dados
     writePosition(0,-3);
     //aumente o tamanho do balão
-    balloon.scale = balloon.scale+0.00;
+    balloon.scale = balloon.scale+0.002;
     
   }
   else if(keyDown(DOWN_ARROW)){
